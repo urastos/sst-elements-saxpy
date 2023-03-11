@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="2" time="0.6048586368560791" name="SST TESTING FRAMEWORKS">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_cacheTracer" skipped="0" tests="2" time="0.6048586368560791">
+		<testcase name="test_cacheTracer_1" time="0.199514" timestamp="2023_0310_07:11:22.937222 utc" classname="testcase_cacheTracer_Component"/>
+		<testcase name="test_cacheTracer_2" time="0.405345" timestamp="2023_0310_07:11:23.136845 utc" classname="testcase_cacheTracer_Component"/>
+	</testsuite>
+</testsuites>

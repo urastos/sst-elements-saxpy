@@ -1,0 +1,23 @@
+--- /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_5_W.out
++++ /Users/urastos/scratch/src/sst-elements-library-12.1.0/src/sst/elements/CramSim/tests/refFiles/test_CramSim_5_W.out
+@@ -1,4 +1,16 @@
+-Config file list: ['/Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/tmp_data/testCramSim/ddr4_verimem.cfg']
+-Override:  traceFile=/Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_5_W.trc
+-Override cfg traceFile /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_5_W.trc
+-TraceFileReader: tracefile name is /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_5_W.trc
++Config file: ddr4_verimem.cfg
++Trace file: traces/sst-CramSim-trace_verimem_5_W.trc
++Address map string: _r_l_R_B_b_h_
++Attaching Channel0 to Rank0
++Attaching Channel0 to Rank1
++Deleting DIMM
++Refresh's sent out: 0
++Total Read-Txns Requests send: 0
++Total Write-Txns Requests send: 24995
++Read-Txns-Received: 0
++Write-Txns-Received: 24940
++Total Txns Received: 24940
++Cycles Per Transaction (CPT) = 4.41059
++Component Finished.
++virtual SST::n_Bank::c_CmdUnit::~c_CmdUnit()
++Simulation is complete, simulated time: 110 us

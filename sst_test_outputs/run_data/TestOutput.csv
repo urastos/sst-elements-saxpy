@@ -1,0 +1,5 @@
+ComponentName, StatisticName, StatisticSubId, StatisticType, SimTime, Rank, Sum.u64, SumSQ.u64, Count.u64, Min.u64, Max.u64
+ll0, BW_recv_from_CPU, 1, Accumulator, 50000000, 0, 13608, 20966, 24999, 0, 5
+ll0, BW_send_to_CPU, 1, Accumulator, 50000000, 0, 13592, 27736, 24999, 0, 7
+c0_0, Mem_Outstanding, 1, Accumulator, 50000000, 0, 50638, 125810, 37509, 0, 6
+c0_1, Mem_Outstanding, 1, Accumulator, 50000000, 0, 51271, 130231, 37509, 0, 8

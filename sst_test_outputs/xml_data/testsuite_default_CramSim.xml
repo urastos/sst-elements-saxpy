@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="11" tests="11" time="31.946794986724854" name="SST TESTING FRAMEWORKS">
+	<testsuite disabled="0" errors="0" failures="11" name="testsuite_default_CramSim" skipped="0" tests="11" time="31.946794986724854">
+		<testcase name="test_CramSim_1_R" time="30.275676" timestamp="2023_0310_07:10:10.614858 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_1_R.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_1_RW" time="0.163447" timestamp="2023_0310_07:10:40.890717 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_1_RW.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_1_W" time="0.172920" timestamp="2023_0310_07:10:41.054239 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_1_W.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_2_R" time="0.165960" timestamp="2023_0310_07:10:41.227240 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_2_R.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_2_W" time="0.166668" timestamp="2023_0310_07:10:41.393286 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_2_W.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_4_R" time="0.167425" timestamp="2023_0310_07:10:41.560027 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_4_R.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_4_W" time="0.165598" timestamp="2023_0310_07:10:41.727519 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_4_W.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_5_R" time="0.170091" timestamp="2023_0310_07:10:41.893199 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_5_R.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_5_W" time="0.165555" timestamp="2023_0310_07:10:42.063359 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_5_W.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_6_R" time="0.166726" timestamp="2023_0310_07:10:42.228992 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_6_R.out does not contain a simulation complete message "/>
+		</testcase>
+		<testcase name="test_CramSim_6_W" time="0.166729" timestamp="2023_0310_07:10:42.395791 utc" classname="testcase_CramSim_Component">
+			<failure type="failure" message="AssertionError: False is not true : Output file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/run_data/test_CramSim_6_W.out does not contain a simulation complete message "/>
+		</testcase>
+	</testsuite>
+</testsuites>

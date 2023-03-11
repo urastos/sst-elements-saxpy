@@ -1,0 +1,81 @@
+Launching SST with automatic environment processing enabled...
+SST Environment Variable: __CFBundleIdentifier=com.apple.Terminal
+SST Environment Variable: TMPDIR=/var/folders/8t/s_3fnm_x1k13q31r01ckp34r0000gn/T/
+SST Environment Variable: XPC_FLAGS=0x0
+SST Environment Variable: TERM=xterm-256color
+SST Environment Variable: SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.MRLTQvZw3i/Listeners
+SST Environment Variable: XPC_SERVICE_NAME=0
+SST Environment Variable: TERM_PROGRAM=Apple_Terminal
+SST Environment Variable: TERM_PROGRAM_VERSION=447
+SST Environment Variable: TERM_SESSION_ID=109AFAA5-37B5-4849-8C82-78C9682A3575
+SST Environment Variable: SHELL=/bin/zsh
+SST Environment Variable: HOME=/Users/urastos
+SST Environment Variable: LOGNAME=urastos
+SST Environment Variable: USER=urastos
+SST Environment Variable: PATH=/Users/urastos/local/sstcore-12.1.0/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin
+SST Environment Variable: SHLVL=1
+SST Environment Variable: PWD=/Users/urastos/scratch/src/sst-elements-library-12.1.0
+SST Environment Variable: OLDPWD=/Users/urastos/scratch/src
+SST Environment Variable: SST_CORE_HOME=/Users/urastos/local/sstcore-12.1.0
+SST Environment Variable: SST_CORE_ROOT=/Users/urastos/scratch/src/sstcore-12.1.0
+SST Environment Variable: SST_ELEMENTS_HOME=/Users/urastos/local/sstelements-12.1.0
+SST Environment Variable: SST_ELEMENTS_ROOT=/Users/urastos/scratch/src/sst-elements-library-12.1.0
+SST Environment Variable: LC_CTYPE=UTF-8
+SST Environment Variable: _=/Users/urastos/local/sstcore-12.1.0/bin/sst-test-elements
+SST Environment Variable: __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+SST Environment Variable: LD_LIBRARY_PATH=/Users/urastos/scratch/src/sst-elements-library-12.1.0/src/sst/elements/osseous:/Users/urastos/local/sstelements-12.1.0/lib/sst-elements-library:/Users/urastos/local/sstcore-12.1.0/lib/sstcore:::::::::
+SST Environment Variable: SST_ROOT=/Users/urastos/local/sstcore-12.1.0
+SST Environment Variable: DYLD_LIBRARY_PATH=/Users/urastos/scratch/src/sst-elements-library-12.1.0/src/sst/elements/osseous:/Users/urastos/local/sstelements-12.1.0/lib/sst-elements-library:/Users/urastos/local/sstcore-12.1.0/lib/sstcore:::::::::
+Launching SST executable (/Users/urastos/local/sstcore-12.1.0/libexec/sstsim.x)...
+SST-Core: Configuration Library Path will read from: /Users/urastos/local/sstcore-12.1.0/lib/sst:/Users/urastos/local/sstcore-12.1.0/lib/sstcore:/Users/urastos/local/sstelements-12.1.0/lib/sst-elements-library:/Users/urastos/scratch/src/sst-elements-library-12.1.0/src/sst/elements/osseous
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=torus shape=4x4x4
+EMBER: numNodes=64 numNics=64
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-63'
+EMBER: Motif='Init'
+EMBER: Motif='Allreduce'
+EMBER: Motif='Fini'
+SSTPythonModel: Creating config graph for SST using Python model...
+SSTPythonModel: Construction of config graph with Python is complete.
+ SST Core: #main() My rank is (0.0), on 1/1 nodes/threads
+ SST Core: # ------------------------------------------------------------
+ SST Core: # Graph construction took 0.049169 seconds.
+ SST Core: # Graph contains 256 components
+ SST Core: # Graph partitioning took 1.90735e-06 seconds.
+ SST Core: # Graph construction and partition raised RSS by 17472 KB
+ SST Core: # ------------------------------------------------------------
+ SST Core: Signal handlers will be registered for USR1, USR2, INT and TERM...
+ SST Core: Signal handler registration is completed
+ SST Core: # Starting main event loop
+ SST Core: # Start time: 2023/03/10 at: 10:13:19
+Allreduce: ranks 64, loop 1, 1 double(s), latency 8.702 us
+
+
+------------------------------------------------------------
+Simulation Timing Information (Wall Clock Times):
+  Build time:                      0.123121 seconds
+  Run loop time:                   0.022109 seconds
+  Total time:                      0.146669 seconds
+
+Simulated time:                    31.898 us
+
+Simulation Resource Information:
+  Max Resident Set Size:           83.088 MB
+  Approx. Global Max RSS Size:     83.088 MB
+  Max Local Page Faults:           37 faults
+  Global Page Faults:              37 faults
+  Max Output Blocks:               0 blocks
+  Max Input Blocks:                0 blocks
+  Max mempool usage:               30.6708 MB
+  Global mempool usage:            30.6708 MB
+  Global active activities:        0 activities
+  Current global TimeVortex depth: 2 entries
+  Max TimeVortex depth:            386 entries
+  Max Sync data size:              0 B
+  Global Sync data size:           0 B
+------------------------------------------------------------
+
+
+Simulation is complete, simulated time: 31.898 us

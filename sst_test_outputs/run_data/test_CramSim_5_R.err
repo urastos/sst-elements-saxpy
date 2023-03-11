@@ -1,0 +1,18 @@
+FATAL: Unable to open trace file /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_5_R.trc Aborting!
+SST Fatal Backtrace Information:
+    0 : 0   sstsim.x                            0x00000001006b2010 _ZNK3SST6Output5fatalEjPKcS2_iS2_z + 612
+    1 : 1   libCramSim.so                       0x00000001029b0680 _ZN3SST7CramSim17c_TraceFileReaderC2EyRNS_6ParamsE + 580
+    2 : 2   libCramSim.so                       0x00000001029ad61c _ZN3SST3ELI14DerivedBuilderINS_7CramSim17c_TraceFileReaderENS_9ComponentEJyRNS_6ParamsEEE6createEyS6_ + 48
+    3 : 3   sstsim.x                            0x00000001006a46f0 _ZN3SST7Factory15CreateComponentEyRKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS_6ParamsE + 344
+    4 : 4   sstsim.x                            0x00000001006cbd24 _ZN3SST15Simulation_impl13performWireUpERNS_11ConfigGraphERKNS_8RankInfoEy + 124
+    5 : 5   sstsim.x                            0x000000010065e6b8 _ZL16start_simulationjR15SimThreadInfo_tRN3SST4Core10ThreadSafe7BarrierE + 792
+    6 : 6   sstsim.x                            0x000000010065b7f4 main + 8100
+    7 : 7   dyld                                0x00000001af923e50 start + 2544
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode -1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

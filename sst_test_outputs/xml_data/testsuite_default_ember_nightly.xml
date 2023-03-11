@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="2" time="0.7774691581726074" name="SST TESTING FRAMEWORKS">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_ember_nightly" skipped="0" tests="2" time="0.7774691581726074">
+		<testcase name="test_Ember_Nightly" time="0.480374" timestamp="2023_0310_07:13:18.346784 utc" classname="testcase_EmberNightly"/>
+		<testcase name="test_Ember_Params" time="0.297095" timestamp="2023_0310_07:13:18.827219 utc" classname="testcase_EmberNightly"/>
+	</testsuite>
+</testsuites>

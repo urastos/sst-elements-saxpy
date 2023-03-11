@@ -1,0 +1,4 @@
+Config file list: ['/Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/tmp_data/testCramSim/ddr4_verimem.cfg']
+Override:  traceFile=/Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_4_W.trc
+Override cfg traceFile /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_4_W.trc
+TraceFileReader: tracefile name is /Users/urastos/scratch/src/sst-elements-library-12.1.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_4_W.trc
